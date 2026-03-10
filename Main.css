@@ -19,7 +19,7 @@ body {
 }
 
 .top-header {
-  background: url('assets/top_leaf.png') top center/contain no-repeat;
+  background: url('assets/top_leaf.png') top center/cover no-repeat;
   padding: 4rem 1.5rem 3rem;
   min-height: 360px;
   text-align: center;
