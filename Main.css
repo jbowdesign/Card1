@@ -1,0 +1,29 @@
+body{
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". t t t t . o i i i i ."
+    ". t t t t . o i i i i ."
+    ". m m m m m m . . . . ."
+    ". m m m m m m c c c c f"
+    ". . . . . . . c c c c f";
+  max-width: 1722px;
+  min-height: 1117px;
+  margin: 0 auto;
+}
+
+/* Grid Areas */
+.cat { 
+    grid-area: c;
+    }
+.open-curly { 
+    grid-area: o; 
+    }
+.image { 
+    grid-area: i; 
+    }
