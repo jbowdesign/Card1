@@ -1,7 +1,3 @@
-body{
-
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -21,8 +17,8 @@ body{
 .cat { 
     grid-area: c;
     }
-.open-curly { 
-    grid-area: o; 
+.base { 
+    grid-area: b; 
     }
 .image { 
     grid-area: i; 
