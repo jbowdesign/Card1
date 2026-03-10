@@ -1,14 +1,13 @@
 .container {
-  background-image: url('assets/background.png');
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
-    ". . . . . . . . . . . ."
-    ". t t t t . o i i i i ."
-    ". t t t t . o i i i i ."
+    "t t t t t t t t t t t t"
+    ". j j j j . o i i i i ."
+    ". j j j j o i i i i ."
     ". m m m m m m . . . . ."
-    ". m m m m m m c c c c f"
-    ". . . . . . . c c c c f";
+    ". m m m m m m c c c c c"
+    ". . . . . . . c c c c c";
   max-width: 1722px;
   min-height: 1117px;
   margin: 0 auto;
@@ -19,12 +18,19 @@ body {
   background: url('assets/background.png') center/cover no-repeat fixed;
 }
 
+.top-header {
+  background: url('assets/top_leaf.png') top center/contain no-repeat;
+  padding: 4rem 1.5rem 3rem;
+  min-height: 360px;
+  text-align: center;
+}
+
 /* Grid Areas */
 .cat { 
     grid-area: c;
     }
-.base { 
-    grid-area: b; 
+.topLeaf { 
+    grid-area: t; 
     }
 .image { 
     grid-area: i; 
