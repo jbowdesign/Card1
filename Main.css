@@ -1,7 +1,7 @@
 .container {
   background-image: url('assets/background.png');
   width: 2000px;
-  height: 1117px;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
