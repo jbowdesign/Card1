@@ -45,7 +45,7 @@ body {
     }
 .bottomleaf{ 
     grid-area: b;
-     position: extended;
+     position: stretch;
   left: 0;
   right: 0;
   bottom: 0;
