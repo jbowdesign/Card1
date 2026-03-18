@@ -27,7 +27,7 @@ body {
 
 .top-header {
   background: url('assets/top_leaf.png') top center/cover no-repeat;
-  padding: 0.5rem 1.5rem 2rem;
+  padding: 0.25rem 1.5rem 2rem;
   min-height: 180px;
   text-align: center;
 }
@@ -56,3 +56,8 @@ body {
     }
 html, body { 
   overflow: hidden; }
+
+  .icon-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
