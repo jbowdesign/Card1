@@ -15,7 +15,8 @@
     ". m m m m m m c c c c c"
     "b b b b b b b c c c c c";
   max-width: 1722px;
-  min-height: 1117px;
+  min-height: 100vh;
+  height: 100vh;
   margin: 0 auto;
 }
 body {
@@ -33,7 +34,7 @@ body {
 
 
 body {
-  padding-bottom: 130px;
+  padding-bottom: 0;
 }
 /* Grid Areas */
 .cat { 
@@ -45,7 +46,7 @@ body {
     }
 .bottomleaf{ 
     grid-area: b;
-     position: stretch;
+     position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
@@ -53,5 +54,5 @@ body {
   padding: 0.5rem 1.5rem 3rem;
   min-height: 100px;
     }
-.html,body { 
+html, body { 
   overflow: hidden; }
