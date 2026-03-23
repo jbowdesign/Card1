@@ -29,8 +29,25 @@ body {
 
 .top-header {
   background: url('assets/top_leaf.png') top center/cover no-repeat;
-  padding: 0.25rem .5rem 1rem;
+  padding: 5rem 0.5rem 1rem;
   min-height: 180px;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+  top: 20rem;
+  width: 50%;
+  text-align: center;
+  font-size: 5rem;
+}
+
+h3 {
+  position: absolute;
+  left: 0;
+  top: 30rem;
+  width: 50%;
   text-align: center;
 }
 
@@ -42,6 +59,7 @@ body {
 .cat { 
     grid-area: c;
     padding-left: 70%;
+    align-self: end;
     }
 .topLeaf { 
     grid-area: t; 
@@ -53,8 +71,8 @@ html, body {
 
   .icon-container {
     position: fixed;
-    left: 5rem;
-    bottom: 3rem;
+    left: 8rem;
+    bottom: 5rem;
     display: flex;
     gap: 0.5rem;
     align-items: center;
