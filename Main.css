@@ -41,14 +41,27 @@ h1 {
   width: 50%;
   text-align: center;
   font-size: 5rem;
+  color: #99807B;
 }
 
 h3 {
   position: absolute;
   left: 0;
-  top: 30rem;
+  top: 28rem;
   width: 50%;
   text-align: center;
+  font-size: 2rem;
+  color: #99807B;
+}
+
+h4 {
+  position: absolute;
+  left: 0;
+  top: 31rem;
+  width: 50%;
+  text-align: center;
+  font-size: 1rem;
+  color: #99807B;
 }
 
 
@@ -59,6 +72,7 @@ body {
 .cat { 
     grid-area: c;
     padding-left: 70%;
+    padding-top: 10%;
     align-self: end;
     }
 .topLeaf { 
@@ -71,7 +85,7 @@ html, body {
 
   .icon-container {
     position: fixed;
-    left: 8rem;
+    left: 18rem;
     bottom: 5rem;
     display: flex;
     gap: 0.5rem;
@@ -82,4 +96,17 @@ html, body {
 .icon-container img {
   width: 5rem;
   height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.icon-container a:hover img,
+.icon-container img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.icon-container a:focus {
+  outline: 2px solid #A68780;
+  border-radius: 4px;
 }
